@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "progression-overhauled",
+	"version": "${version}",
+	"name": "Progression Overhauled",
+	"description": "Progression Overhauled: A mod that changes the overall progression of the base game.",
+	"authors": [
+		"3A",
+		"UniverseBaka"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC BY-NC-SA 3.0",
+	"icon": "assets/progression-overhauled/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "moddinguteam.progressionoverhauled.ProgressionOverhauled"
+		],
+		"client": [
+          "moddinguteam.progressionoverhauled.ProgressionOverhauled"
+		],
+		"fabric-datagen": [
+			"moddinguteam.progressionoverhauled.ProgressionOverhauledDataGenerator"
+		]
+	},
+	"mixins": [
+		"progression-overhauled.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
