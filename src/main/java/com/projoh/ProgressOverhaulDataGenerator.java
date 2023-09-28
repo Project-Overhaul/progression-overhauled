@@ -1,9 +1,9 @@
-package moddinguteam.progressionoverhauled;
+package com.projoh;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
-public class ProgressionOverhauledDataGenerator implements DataGeneratorEntrypoint {
+public class ProgressOverhaulDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 

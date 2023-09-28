@@ -19,6 +19,14 @@ repositories {
 }
 
 loom {
+    splitEnvironmentSourceSets()
+
+	mods {
+		"progress-overhaul" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+	}
     runs {
 		// This adds a new gradle task that runs the datagen API: "gradlew runDatagen"
 		datagen {
@@ -26,7 +34,7 @@ loom {
 			name "Data Generation"
 			vmArg "-Dfabric-api.datagen"
 			vmArg "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}"
-			vmArg "-Dfabric-api.datagen.modid=progression-overhauled"
+			vmArg "-Dfabric-api.datagen.modid=progress-overhaul"
  
 			runDir "build/datagen"
 		}

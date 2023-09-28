@@ -1,33 +1,36 @@
 {
 	"schemaVersion": 1,
-	"id": "progression-overhauled",
+	"id": "progress-overhaul",
 	"version": "${version}",
-	"name": "Progression Overhauled",
-	"description": "Progression Overhauled: A mod that changes the overall progression of the base game.",
+	"name": "Progress Overhaul",
+	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"3A",
-		"UniverseBaka"
+		"Me!"
 	],
 	"contact": {
-		"homepage": "",
-		"sources": ""
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC BY-NC-SA 3.0",
-	"icon": "assets/progression-overhauled/icon.png",
+	"license": "CC0-1.0",
+	"icon": "assets/progress-overhaul/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "moddinguteam.progressionoverhauled.ProgressionOverhauled"
+			"com.projoh.ProgressOverhaul"
 		],
 		"client": [
-          "moddinguteam.progressionoverhauled.ProgressionOverhauled"
+			"com.projoh.ProgressOverhaulClient"
 		],
 		"fabric-datagen": [
-			"moddinguteam.progressionoverhauled.ProgressionOverhauledDataGenerator"
+			"com.projoh.ProgressOverhaulDataGenerator"
 		]
 	},
 	"mixins": [
-		"progression-overhauled.mixins.json"
+		"progress-overhaul.mixins.json",
+		{
+			"config": "progress-overhaul.client.mixins.json",
+			"environment": "client"
+		}
 	],
 	"depends": {
 		"fabricloader": ">=0.14.22",
