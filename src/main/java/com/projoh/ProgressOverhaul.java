@@ -12,5 +12,6 @@ public class ProgressOverhaul implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
+		ModItems.registerItems();
 	}
 }
