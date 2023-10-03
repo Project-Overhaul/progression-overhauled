@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "progress-overhaul",
 	"version": "${version}",
-	"name": "Progress Overhaul",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Progression Overhaul",
+	"description": "Progression Overhaul - A mod aimed at improving the Minecraft survival progression experience.",
 	"authors": [
 		"3A",
 		"cph101",
