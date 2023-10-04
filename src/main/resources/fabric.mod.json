@@ -14,21 +14,21 @@
 		"homepage": "https://project-overhaul.github.io",
 		"sources": "https://github.com/Project-Overhaul/progression-overhauled"
 	},
-	"icon": "assets/progress-overhaul/icon.png",
+	"icon": "assets/progoverhaul/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.projoh.ProgressOverhaul"
+			"com.projoh.ProgressionOverhaul"
 		],
 		"client": [
-			"com.projoh.ProgressOverhaulClient"
+			"com.projoh.ProgressionOverhaulClient"
 		],
 		"fabric-datagen": [
-			"com.projoh.ProgressOverhaulDataGenerator"
+			"com.projoh.ProgressionOverhaulDataGenerator"
 		]
 	},
 	"mixins": [
-		"progress-overhaul.mixins.json",
+		"progoverhaul.mixins.json",
 		{
 			"config": "progress-overhaul.client.mixins.json",
 			"environment": "client"

@@ -1,6 +1,6 @@
 package com.projoh.item;
 
-import com.projoh.ProgressOverhaul;
+import com.projoh.ProgressionOverhaul;
 import com.projoh.block.ModBlocks;
 import com.projoh.food.FoodComponents;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -19,7 +19,7 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.STRAWBERRY_BUSH ,new FabricItemSettings().food(FoodComponents.STRAWBERRY)));
 
     private static Item registerItem(String name,Item item){
-        return Registry.register(Registries.ITEM, new Identifier(ProgressOverhaul.MODID,name),item);
+        return Registry.register(Registries.ITEM, new Identifier(ProgressionOverhaul.MODID,name),item);
     }
 
 
