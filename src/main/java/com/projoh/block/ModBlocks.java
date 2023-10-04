@@ -31,8 +31,4 @@ public class ModBlocks {
         return Registry.register(Registries.ITEM, new Identifier(ProgressionOverhaul.MODID, name),
                 new BlockItem(block, new FabricItemSettings()));
     }
-
-    public static void registerModBlocks(){
-
-    }
 }
