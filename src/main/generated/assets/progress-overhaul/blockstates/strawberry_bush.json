@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "progress-overhaul:block/strawberry_bush_stage0"
+    },
+    "age=1": {
+      "model": "progress-overhaul:block/strawberry_bush_stage1"
+    },
+    "age=2": {
+      "model": "progress-overhaul:block/strawberry_bush_stage2"
+    },
+    "age=3": {
+      "model": "progress-overhaul:block/strawberry_bush_stage3"
+    }
+  }
+}

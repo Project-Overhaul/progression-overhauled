@@ -1,5 +1,6 @@
 package com.projoh;
 
+import com.projoh.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
