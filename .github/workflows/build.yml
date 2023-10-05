@@ -35,4 +35,5 @@ jobs:
       - name: capture build artifacts
         uses: actions/upload-artifact@v3
         with:
+          name: Mod-Build
           path: build/libs/progress-overhaul-*.jar
